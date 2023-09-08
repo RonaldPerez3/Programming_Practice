@@ -2,6 +2,6 @@
 using namespace std;
 
 int main(){
-cout<<"pato el que lo lea"<<endl;
+cout<<"Eres una caca Leo"<<endl;
 return 0;
 }
