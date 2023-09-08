@@ -2,6 +2,6 @@
 using namespace std;
 
 int main(){
-cout<<"Eres una caca Leo"<<endl;
+cout<<"Ronald es gay"<<endl;
 return 0;
 }
