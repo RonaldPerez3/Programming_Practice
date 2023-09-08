@@ -4,6 +4,6 @@ using namespace std;
 
 int main()
 {
-    cout << "Programa de Victor" << endl;
+    cout << "Ronald es gay" << endl;
     
 }
