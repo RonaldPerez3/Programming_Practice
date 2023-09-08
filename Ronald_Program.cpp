@@ -3,5 +3,5 @@
 using namespace std;
 
 int main(){
-    cout << "Pato el que lo lea" << endl;
+    cout << "Que se le caiga el pipi a quien lo lea" << endl;
 }
