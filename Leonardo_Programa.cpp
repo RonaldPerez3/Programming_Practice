@@ -2,6 +2,6 @@
 using namespace std;
 
 int main(){
-cout<<"pato el que lo lea"<<endl;
+cout<<" Practica "<<endl;
 return 0;
 }

@@ -3,5 +3,5 @@
 using namespace std;
 
 int main(){
-    cout << "Que se le caiga el pipi a quien lo lea" << endl;
+    cout << "Practica de programacion" << endl;
 }
