@@ -4,7 +4,7 @@
  
  using namespace std;
  
- /* Programs 3-12 and 3-13
+  /*Programs 3-12 and 3-13
  
  int main()
  {
@@ -21,7 +21,8 @@
  // Display the third row of numbers
  cout << setw(6) << num7 << setw(6) << num8 << setw(6) << num9 << endl;
  return 0;
- }*/
+ }
+*/
 
 
  /* Program 3-14
@@ -117,7 +118,8 @@ int main()
 }
 */
 
-//Program 3-18
+
+/*Program 3-18
 // This program illustrates the use of the left and right manipulators.
 
 
@@ -138,12 +140,55 @@ int main()
  cout << fixed << showpoint << setprecision(1);
  cout << "Month Days High\n";
  
- cout << left << setw(12) << month1
- << right << setw(4) << days1 << setw(9) << high1 << endl;
+ cout << left << setw(12) << month1 << right << setw(4) << days1 << setw(9) << high1 << endl;
  cout << left << setw(12) << month2 << right << setw(4) << days2 << setw(9) << high2 << endl;
- cout << left << setw(12) << month3 
- << right << setw(4) << days3 << setw(9) << high3 << endl;
+ cout << left << setw(12) << month3  << right << setw(4) << days3 << setw(9) << high3 << endl;
  
  return 0;
  }
- 
+*/
+
+
+//PRACTICE
+
+
+/*3.22 
+
+int main(){
+
+double A = 34.789;
+double B = 7.0;
+long long C = 5.789e+12;
+int D = 67;
+
+cout << setw(9) << A << endl;
+cout << fixed << setw(6) << setprecision(3) << B << endl;
+cout << C << endl;
+cout << left << setw(7) << D << endl; 
+
+}
+*/
+
+
+/*3.23
+
+int main(){
+const double PI = 3.14159;
+double degrees, radians;
+
+cout << "Enter an angle in degrees and I will convert it\n";
+cout << "to radians for you: ";
+
+cin >> degrees;
+
+radians = degrees * PI / 180;
+
+cout << left << fixed << setw(7) << setprecision(4) << radians << endl;
+
+// Display the value in radians left-justified, in fixed-point
+// notation, with four decimal places of precision, in a field
+// seven spaces wide.
+
+}
+
+*/
