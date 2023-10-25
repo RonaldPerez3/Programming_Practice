@@ -60,3 +60,5 @@ positive charge as a switch in the on position and a negative charge as a switch
 Each byte is assigned a unique number known as an address. The addresses are ordered from lowest to highest.
 A byte is identified by its address, in much the same way a post office box is identified by an address, so
 that the data stored there can be located.
+
+I'll continue this after I study for This fridays test!
